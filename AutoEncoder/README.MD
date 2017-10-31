@@ -1,6 +1,4 @@
-# Deep Learning for Rec
-
-## AutoEncoder
+# AutoEncoder
 data: 
 	yahoo movies dataset. Rated from 1 to 5.
 
