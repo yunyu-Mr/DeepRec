@@ -243,11 +243,16 @@ local function testNN(network)
    print("Current RMSE : " .. math.sqrt(err) * 2)
 
 end
-   
+
+
+----------------------------------
+-- Main
+----------------------------------
 print("Start Training the network...")   
 for t = 1, epoches do
    xlua.progress(t, epoches)
    print('')
+
    trainNN(network, t)
    testNN(network)
 end
