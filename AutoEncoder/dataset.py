@@ -49,7 +49,7 @@ class DataSet():
     
     @property
     def size(self):
-        return len(self.x.data)
+        return self.mask.data.size
     
     
 class DataManager():
